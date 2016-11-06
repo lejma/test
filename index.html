@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Stuff</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css"
+</head>
+
+<body>
+	<header>
+    <nav class="navbar navbar-inverse"
+      <a href="/" class="navbar-brand">dašbórd</a>
+      <ul class="nav navbar-nav">
+        <li><a href="/">LOL</a></li>
+        <li><a href="/">ROFL</a></li>
+        <li><a href="/">ROFLMAO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>welcome here</h2>
+      <div id="myDiv">
+
+          <form name="f1">
+  <input type="radio" Name="r1" Value="ON" onClick="GetSelectedItem(this)">On
+  <input type="radio" Name="r1" Value="OFF" onClick="GetSelectedItem(this)">Off
+</form>
+
+<div id="output"></div>
+
+     <script type="text/javascript">
+
+     var output = document.getElementById('output');
+
+function GetSelectedItem(el) {
+  output.innerHTML = el.value;
+}
+</script>
+
+
+      </div>
+    <a href="/" class="btn btn-lg btn-primary">click</a>
+  </div>
+
+</body>
+</html>
